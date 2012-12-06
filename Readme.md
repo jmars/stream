@@ -1,11 +1,10 @@
-
 # stream-component
 
   Stream component
 
 ## Installation
 
-    $ component install jmars/stream-component
+    $ component install jmars/stream
 
 ## API
 
