@@ -38,7 +38,7 @@ util = {
 function Stream() {
   events.EventEmitter.call(this);
 }
-util.inherits(Stream, events.EventEmitter);
+util.inherits(Stream, events.EventEmitter2);
 module.exports = Stream;
 // Backwards-compat with node 0.4.x
 Stream.Stream = Stream;
